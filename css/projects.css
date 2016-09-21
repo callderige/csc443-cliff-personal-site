@@ -1,6 +1,7 @@
 .jumbotron-projects {
 	border-radius: 0px !important;
-	margin-top: 5%;
+	margin-top: 10%;
+	margin-bottom: 10%;
 	background-color: rgba(0,0,0,0.5);
 	color: white;
 }
