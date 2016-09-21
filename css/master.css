@@ -4,6 +4,10 @@
 @import url("index.css");
 @import url("projects.css");
 
+nav a {
+	color: white !important;
+}
+
 .background-img {
 	background-size: cover;
 	display: block;
