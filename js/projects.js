@@ -1,4 +1,4 @@
-$("a.link").on("click",function(){
+$("a.amazon-search-btn").on("click",function(){
     var search = document.getElementById('amazon_search').value;
     if(search.length > 0){
 	    var str = search.split(",");

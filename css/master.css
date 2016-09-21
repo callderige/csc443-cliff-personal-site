@@ -8,7 +8,12 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 1.5em;
+	background-image: url('../pictures/picture.jpeg');
+	background-size: cover;
+}
+
+p {
+	font-size: 1em !important;
 }
 
 nav a {
@@ -26,30 +31,14 @@ nav a:hover {
 	background: black !important;
 }
 
+.jumbotron h2 {
+	font-size: 1.6em !important;
+}
+
+.jumbotron h3 {
+	font-size: 1.3em !important;
+}
+
 .jumbotron {
 	display: none;
-}
-
-.background-img {
-	background-size: cover;
-	display: block;
-	left: -5px;
-
-	z-index: -1;
-	position: fixed;
-
-	-webkit-filter: blur(4px);
-	-moz-filter: blur(4px);
-	-o-filter: blur(4px);
-	-ms-filter: blur(4px);
-	filter: blur(4px);
-
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	margin:-5px;
-}
-
-.main-container-margin-top {
-	margin-top: 51px;
 }
