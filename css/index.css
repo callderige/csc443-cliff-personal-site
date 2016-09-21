@@ -10,3 +10,10 @@
 	background-color: rgba(0,0,0,0.5);
 	color: white;
 }
+
+@media (max-width: 1400px) {
+	.jumbotron-index {
+		margin-top: 20%;
+		margin-bottom: 20%;
+	}
+}
