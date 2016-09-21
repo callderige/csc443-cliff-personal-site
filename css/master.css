@@ -4,8 +4,20 @@
 @import url("index.css");
 @import url("projects.css");
 
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+}
+
 nav a {
 	color: white !important;
+	border-right: 1px solid white;
+}
+
+.jumbotron {
+	display: none;
 }
 
 .background-img {

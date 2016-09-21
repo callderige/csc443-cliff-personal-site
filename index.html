@@ -33,11 +33,17 @@
 	</nav>
 	<div class="container-fluid main-container-margin-top">
 		<img class="background-img" src="pictures/picture.jpeg">
-		<div class="col-xs-offset-1 col-xs-10 col-md-offset-4 col-md-4">
-			<div class="jumbotron jumbotron-index">
+		<div class="col-xs-12 col-md-offset-4 col-md-4">
+			<div class="jumbotron jumbotron-index" id="test">
 			<p>I am an aspiring software developer who has experience with Java, PHP, Javascript, and HTML/CSS. Software development is both a passion and a hobby of mine. I believe in teamwork to create solid applications and software solutions. In my free time I like to hike, go for walks, play pool and Counter-Strike: Global Offensive poorly.</p>
 			</div>
 		</div>
 	</div>
+
+	<script>
+	$(document).ready(function(){
+	        $('div.jumbotron').delay(100).fadeIn(500);
+	});
+	</script>
 </body>
 </html>

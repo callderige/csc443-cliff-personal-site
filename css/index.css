@@ -3,8 +3,10 @@
 }
 
 .jumbotron-index {
+	display: none;
 	border-radius: 0px !important;
 	margin-top: 50%;
+	margin-bottom: 40%;
 	background-color: rgba(0,0,0,0.5);
 	color: white;
 }
