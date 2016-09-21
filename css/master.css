@@ -13,7 +13,17 @@ body {
 
 nav a {
 	color: white !important;
-	border-right: 1px solid white;
+}
+
+@media (min-width: 768px) {
+	nav a {
+		border-right: 1px solid white;
+	}
+}
+
+nav a:hover {
+	color: white !important;
+	background: black !important;
 }
 
 .jumbotron {

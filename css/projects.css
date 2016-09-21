@@ -20,3 +20,12 @@
 	background: black;
 	border: 1px solid white;
 }
+
+.amazon-search-box{
+	border-radius: 0px;
+}
+
+.amazon-search-btn {
+	border-radius: 0px;
+	margin-top: 10px;
+}
