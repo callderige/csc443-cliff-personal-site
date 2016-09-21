@@ -1,24 +1,4 @@
-.index-img {
-	background-size: cover;
-	display: block;
-	left: -5px;
-
-	z-index: -1;
-	position: fixed;
-
-	-webkit-filter: blur(4px);
-	-moz-filter: blur(4px);
-	-o-filter: blur(4px);
-	-ms-filter: blur(4px);
-	filter: blur(4px);
-
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	margin:-5px;
-}
-
-.jumbotron-custom {
+.jumbotron-index {
 	border-radius: 0px !important;
 	margin-top: 50%;
 	background-color: rgba(0,0,0,0.5);
