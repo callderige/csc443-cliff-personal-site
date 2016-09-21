@@ -1,0 +1,21 @@
+.jumbotron-projects {
+	border-radius: 0px !important;
+	margin-top: 5%;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+
+.git-button {
+	border-radius: 10px;
+	border: 1px solid white;
+	background: white;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.git-button:hover {
+	color: white;
+	background: black;
+	border: 1px solid white;
+}
