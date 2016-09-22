@@ -30,15 +30,3 @@ nav a:hover {
 	color: white !important;
 	background: black !important;
 }
-
-.jumbotron h2 {
-	font-size: 1.6em !important;
-}
-
-.jumbotron h3 {
-	font-size: 1.3em !important;
-}
-
-.jumbotron {
-	display: none;
-}
