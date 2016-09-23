@@ -20,6 +20,15 @@
   	min-height: 800px;
 }
 
+@media(max-height: 800px) {
+	.carousel-img {
+	  	width: auto;
+	  	height: 500px;
+	  	max-height: 500px;
+	  	min-height: 500px;
+	}
+}
+
 @media(max-width: 767px) {
 	.carousel-img {
   		width: auto;
